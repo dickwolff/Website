@@ -3,17 +3,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256">
 	<style>
 		path.black {
-		  fill: white;
+		  fill: black;
 		  opacity: 0;
 		}
 		path.white {
-		  fill: black;
+		  fill: white;
 		}
 
-		@media (prefers-color-scheme: dark) {		  	 
-		  path.white {
+		@media (prefers-color-scheme: dark) {		  	
+		  path.black {
 			fill: white;
-		  }
+			opacity: 1;
+		  }		
+		  		
+		  path.white {
+			fill: black;
+		  }		 		
 		}
 	</style>
 	
@@ -220,7 +225,7 @@
 	<path class="white" style="stroke:none;" d="M192 104L193 105L192 104z"/>
 	<path class="white" style="stroke:none;" d="M243.333 104.667L243.667 105.333L243.333 104.667M69 105L69 157L70 157L70 122L69 105z"/>
 	<path class="white" style="stroke:none;" d="M70 105L71 106L70 105z"/>
-	<path class="black" style="stroke:none;" d="M70 156C76.5079 156 84.3096 157.168 89.9846 153.297C101.222 145.632 101.099 122.105 93.2106 112.105C89.9493 107.971 75.5582 100.884 71.0278 106.603C68.6992 109.543 70 116.469 70 120L70 156z"/>
+	<path class="black d-inside" style="stroke:none;" d="M70 156C76.5079 156 84.3096 157.168 89.9846 153.297C101.222 145.632 101.099 122.105 93.2106 112.105C89.9493 107.971 75.5582 100.884 71.0278 106.603C68.6992 109.543 70 116.469 70 120L70 156z"/>
 	<path class="white" style="stroke:none;" d="M80.6667 105.333L81.3333 105.667L80.6667 105.333z"/>
 	<path class="white" style="stroke:none;" d="M82.6667 105.333L83.3333 105.667L82.6667 105.333M104 105L105 106L104 105z"/>
 	<path class="white" style="stroke:none;" d="M120.333 105.667L120.667 106.333L120.333 105.667M170 105L171 106L170 105z"/>
