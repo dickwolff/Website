@@ -1,20 +1,18 @@
-<!-- Took inspiration from: https://stackoverflow.com/a/69530847 -->
 <?xml version="1.0" standalone="yes"?>
+<!-- Took inspiration from: https://stackoverflow.com/a/69530847 -->
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256">
 	<style>
 		path.black {
-		  fill: black;
+		  fill: white;
+		  opacity: 0;
 		}
 		path.white {
-		  fill: white;
+		  fill: black;
 		}
 
-		@media (prefers-color-scheme: dark) {
-		  path.black {
-			fill: white;
-		  }
+		@media (prefers-color-scheme: dark) {		  	 
 		  path.white {
-			fill: black;
+			fill: white;
 		  }
 		}
 	</style>
