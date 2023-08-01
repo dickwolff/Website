@@ -57,11 +57,6 @@
 		$('.navbar-collapse').collapse('hide');
 	});
 
-	// Activate scrollspy to add active class to navbar items on scroll
-	$('body').scrollspy({
-		target: '#mainNav',
-		offset: navHeight
-	});
 	/*--/ End Scrolling nav /--*/
 
 	/*--/ Navbar Menu Reduce /--*/
