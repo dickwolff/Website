@@ -1321,5 +1321,5 @@ footer .credits a {
 }
 
 .navbar-collapse {
-  margin-top: initial;
+  margin: 0 1rem !important;
 }
