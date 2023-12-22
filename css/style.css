@@ -1319,3 +1319,7 @@ footer .credits a {
 .nav-link .fa {
   font-size: 24px;
 }
+
+.navbar-collapse {
+  margin-top: initial;
+}
