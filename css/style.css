@@ -1302,7 +1302,7 @@ footer .credits a {
   }
   
   .navbar-collapse {
-	 margin-top: 1rem;
+	 margin: 0 1rem;
   }
   
   .navbar-nav {
@@ -1318,8 +1318,4 @@ footer .credits a {
 
 .nav-link .fa {
   font-size: 24px;
-}
-
-.navbar-collapse {
-  margin: 0 1rem !important;
 }
